@@ -12,5 +12,19 @@ the dataset is sourced from kaggle and its from the zepto product listing.each r
 # PROJECT WORKFLOW:
 ## 1.database and table creation
 write the query to create the table
+```
+CREATE TABLE zepto(
+sku_id SERIAL PRIMARY KEY,
+category VARCHAR (100),
+name VARCHAR(100) NOT NULL,
+mrp NUMERIC(8,2),
+discountpercent NUMERIC(5,2),
+availablequantity INT,
+discountedsellingprice NUMERIC (8,2),
+weightIngms INT,
+outofstock BOOLEAN,
+quantity INT
+);
+```
 
 
