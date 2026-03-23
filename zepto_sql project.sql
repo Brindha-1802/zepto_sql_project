@@ -1,9 +1,8 @@
-  create database zepto_sql_project;
+  CREATE DATABASE zepto_sql_project;
   
   use zepto_sql_project;
   
--- TABLE CREATION 
-
+-- TABLE CREATION
 
 CREATE TABLE zepto(
 sku_id SERIAL PRIMARY KEY,
